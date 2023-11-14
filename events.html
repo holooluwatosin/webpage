@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events Listing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .event {
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .event img {
+      max-width: 100px;
+      margin-right: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      section {
+        padding: 10px;
+      }
+
+      .event img {
+        max-width: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Events Listing</h1>
+  </header>
+
+  <section>
+    <div class="event">
+      <img src="event1.jpg" alt="Event 1">
+      <div>
+        <h2>Event 1 Title</h2>
+        <p>Location: Event 1 Location</p>
+        <p>Date: Event 1 Date</p>
+      </div>
+    </div>
+
+    <div class="event">
+      <img src="event2.jpg" alt="Event 2">
+      <div>
+        <h2>Event 2 Title</h2>
+        <p>Location: Event 2 Location</p>
+        <p>Date: Event 2 Date</p>
+      </div>
+    </div>
+
+    <!-- Add more events as needed -->
+
+  </section>
+
+  <script>
+    // Add any JavaScript logic if needed
+  </script>
+
+</body>
+</html>
