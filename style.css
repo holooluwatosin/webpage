@@ -99,11 +99,17 @@ button {
 /*  */
 main {
     background-image: url(./assets/images/sjx_background_image.jpg);
+    background-size: cover;
     height: 700px;
     padding: 20px;
     color: #EAE3C9;
 }
-.first-foot{
+.foot-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.first-foot, .second-foot, .third-foot{
     color: rgba(34, 34, 34, 0.60);
     /* font-family: Inter; */
     font-size: 20px;
@@ -113,6 +119,14 @@ main {
     letter-spacing: -0.4px;
     text-align: left;
     margin: 49px 0 54px 0;
+}
+.Unsubscribe {
+    color: rgba(34, 34, 34, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .social-media {
     margin-bottom: 16px;
@@ -167,7 +181,10 @@ main {
     }
 
     /* Settings page */
-    section {
+    /* section {
         padding: 10px;
+    } */
+    .foot-wrapper {
+        flex-direction: column;
     }
 }
