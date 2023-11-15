@@ -93,7 +93,8 @@ button {
     padding: 10px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
+    padding: 16px 24px;
 }
 
 /*  */
@@ -120,14 +121,62 @@ main {
     text-align: left;
     margin: 49px 0 54px 0;
 }
-.Unsubscribe {
+.Unsubscribe, .details {
     color: rgba(34, 34, 34, 0.60);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    /* margin-bottom: 16px; */
 }
+.Subscribe {
+    margin: 18px 0 20px 0;
+}
+.submit {
+    margin-left: 32px;
+}
+/* .details {
+    margin-top: 16px;
+} */
+.search {
+    border-radius: 16px;
+    background: #E4E4E4;
+    padding: 20px;
+}
+.search input[type="text"] {
+    /* outline: none; */
+    /* padding: 15px 10px; */
+    border-radius: 12px;
+    padding: 12px 6px;
+    background: inherit;
+    /* border: 0; */
+    border-color: transparent;
+    transition: border-color 0.3s;
+
+}
+.search input::placeholder {
+    font-size: 18px;
+    /* margin-top: 10px; */
+    /* padding-top: 5px; */
+}
+.search input[type="text"]:focus {
+    /* border: 0; */
+    /* border-color: transparent; */
+    border: 0 transparent #E4E4E4;
+}
+#envelope {
+    margin-right: 24px;
+    font-size: 25px;
+}
+/* .details {
+    color: rgba(34, 34, 34, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */
 .social-media {
     margin-bottom: 16px;
 }
