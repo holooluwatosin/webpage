@@ -117,8 +117,8 @@ main {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28px; /* 140% */
-    letter-spacing: -0.4px;
+    /* line-height: 140%; */
+    /* letter-spacing: -0.4px; */
     text-align: left;
     margin: 49px 0 54px 0;
 }
@@ -133,24 +133,28 @@ main {
 }
 .Subscribe {
     margin: 18px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.submit {
+/* .submit {
     margin-left: 32px;
-}
-/* .details {
-    margin-top: 16px;
 } */
 .search {
     border-radius: 16px;
     background: #E4E4E4;
-    padding: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
 }
 .search input[type="text"] {
     /* outline: none; */
-    /* padding: 15px 10px; */
     border-radius: 12px;
     padding: 12px 6px;
     background: inherit;
+    width: 50%;
     /* border: 0; */
     border-color: transparent;
     transition: border-color 0.3s;
@@ -170,14 +174,6 @@ main {
     margin-right: 24px;
     font-size: 25px;
 }
-/* .details {
-    color: rgba(34, 34, 34, 0.60);
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-} */
 .social-media {
     margin-bottom: 16px;
 }
@@ -205,7 +201,7 @@ main {
     width: 373px;
     height: 18px;
     /* flex-shrink: 0; */
-    color: #222;
+    color: #222222;
     text-align: left;
 
     /* Body/B2/Regular */

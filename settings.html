@@ -42,9 +42,9 @@
             
                 <div class="mobile-menu" id="mobileMenu">
                     <a href="/" class="nav-link">Home</a>
-                        <a href="/events" class="nav-link">Event</a>
-                        <a href="/event-detail" class="nav-link">Event Details</a>
-                        <a href="/contact" class="nav-link">Contact</a>
+                    <a href="/events" class="nav-link">Event</a>
+                    <a href="/event-detail" class="nav-link">Event Details</a>
+                    <a href="/contact" class="nav-link">Contact</a>
                 </div>
             </div>
         </header>
@@ -54,7 +54,7 @@
 
             <div class="settings">
                 <label for="fontSize">Font Size:</label>
-                <input type="range" id="fontSize" min="0.5" max="2" step="0.1" value="1" oninput="changeFontSize()">
+                <input type="range" id="fontSize" min="0.5" max="1.5" step="0.1" value="1" oninput="changeFontSize()">
             </div>
 
             <div class="settings">
@@ -69,5 +69,79 @@
 
             <button onclick="resetPreferences()">Reset Preferences</button>
         </section>
+
+        <footer id="websiteFooter">
+            <div>
+                <div class="foot-wrapper">
+                    <div class="first-foot">
+                        <p>CONNECT WITH US</p>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle">
+                                SJX
+                            </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle">
+                                SJX
+                            </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <!-- <img src="./assets/images/X svg.svg" alt="x" class="x"> -->
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle">
+                                @sjx
+                            </span>
+                        </div>
+                    </div>
+                    <div class="second-foot">
+                        <p>CONTACT</p>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle">
+                                +44 7392 650742
+                            </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle">
+                                +44 7392 650742
+                            </span>
+                        </div>
+                    </div>
+                    <div class="third-foot">
+                        <p>Subscribe to get offers</p>
+                        <p class="Unsubscribe">Unsubscribe or change preference</p>
+                        <div class="Subscribe">
+                            <span class="search">
+                                <i class="fa fa-envelope-o" id="envelope" aria-hidden="true"></i>
+                                <input type="text" placeholder="Email Address" name="search">
+                            </span>
+                            <button type="submit" class="submit">
+                                Subscribe
+                                <!-- <i class="fa fa-search"></i> -->
+                            </button>
+                        </div>
+                        <p class="details">For details of how we use your information, <br> please see our 
+                        <a href="#" class="details">privacy policy</a></p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="copyright">
+                    2023 © All rights reserved by SJX
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
